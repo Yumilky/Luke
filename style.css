@@ -617,8 +617,8 @@ animation-delay: 2s;
     border: 2px solid #003049;
     border-style: dashed;
   }
-  .text{
-font-family: 'Brush Script MT', cursive;
+  .text {
+    font-family: 'Brush Script MT', cursive;
     font-size: 25px;
     color: #003049;
     text-align: center;
