@@ -22,6 +22,11 @@ a {
     top: 30px;
 }
 /* ----------- ROSE ---------- */
+.garden {
+top: 50px;
+text-align: center;
+font-size: 28px;
+}
 .container-rose {
 width: 100px;
 height: 300px;
