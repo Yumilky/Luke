@@ -23,7 +23,7 @@ a {
 }
 /* ----------- ROSE ---------- */
 .garden {
-top: 0;
+bottom: 500px;
 text-align: center;
 font-size: 20px;
 }
