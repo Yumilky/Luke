@@ -8,18 +8,26 @@
 </head>
 <body>
     <div class="container">
-        <div class="valentines">
-            <div class="envelope">
-                <div class="letter">
-                    <div class="text">
-                        <strong>Dear Luke,</strong>
-                        <p>would you like to be my boyfriend?</p>
+        <div class="love">
+            <div class="envelope-wrapper">
+                <div class="envelope">
+                    <div class="letter">
+                        <div class="text">
+                            <strong>Dear Luke,</strong>
+                            <p>would you like to be my boyfriend?</p>
+                        </div>
                     </div>
-                    <div class="heart"></div>
                 </div>
+                <div class="front"></div>
+                <div class="heart"></div>
             </div>
-            <div class="front"></div>
         </div>
     </div>
+<script>
+    const envelope = document.querySelector('.envelope-wrapper');
+    envelope.addEventListener('click', () => {
+        envelope.classList.toggle('flap');
+    });
+</script>
 </body>
 </html>
