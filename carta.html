@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I love you</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+    <button class="rosa">
+        <a href="index.html">🌹</a>
+    </button>
+
+    <div class="container">
+        <div class="love">
+            <div class="envelope-wrapper">
+                <div class="envelope">
+                    <div class="letter">
+                        <div class="text">
+                            <strong>Dear Luke,</strong>
+                            <p>would you like to be my boyfriend?</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="front"></div>
+                <div class="heart"></div>
+            </div>
+        </div>
+    </div>
+    <script>
+        const envelope = document.querySelector('.envelope-wrapper');
+        envelope.addEventListener('click', () => {
+            envelope.classList.toggle('flap');
+        });
+    </script>
+</body>
