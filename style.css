@@ -27,7 +27,8 @@ font-family: 'Brush Script MT', cursive;
 position: absolute;
 width: 350px;
 height: 300px;
-top: 100px;
+top: 50px;
+bottom: 800px;
 text-align: center;
 font-size: 20px;
 }
