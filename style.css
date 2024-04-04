@@ -24,6 +24,7 @@ a {
 /* ----------- ROSE ---------- */
 .garden {
 font-family: 'Brush Script MT', cursive;
+position: absolute;
 width: 350px;
 height: 300px;
 top: 100px;
